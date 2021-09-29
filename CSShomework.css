@@ -1,0 +1,149 @@
+/* Ignore following classes */
+
+* {
+  font-family: "Montserrat", sans-serif;
+  background-color: #eeeeee;
+}
+
+#intro {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  margin: 50px;
+}
+
+.insideborder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.para {
+  font-weight: 300;
+  margin-left: 10px;
+}
+
+h2 {
+  font-size: medium;
+  font-weight: 200;
+}
+
+/* Classes that you might find useful */
+/* Note* These classes do not cover every possibloe case to build you flags, you will have to continue to add your own*/
+img {
+  max-width: 90%
+}
+
+.strip {
+  height: 30;
+  transform: translateY(68px);
+  z-index: 900;
+  background-color: transparent;
+}
+.vstrip {
+  height: 30;
+  transform: rotate(90deg) translateX(37px);
+  z-index: 900;
+  background-color: transparent;
+}
+
+.box {
+  height:166px;
+  width:166px;
+  background-color:blue;
+  z-index: 1000;
+  position:absolute;
+  padding-left: 0;
+  padding-top: 0;
+}
+
+#mexico-bird{
+  padding-left: 10;
+  padding-top: 80;
+  background-color: transparent;
+  position: relative;
+  padding-top: 80;
+
+}
+.flag {
+  height: 300px;
+  width: 500px;
+  border-style: solid;
+  margin-bottom: 5rem;
+}
+
+.horiz {
+  display: flex;
+  flex-direction: row;
+}
+
+.twovert {
+  height: 50%;
+}
+
+.threevert {
+  height: 33.3%;
+}
+
+.threehoriz {
+  width: 33.3%;
+}
+
+.skinny {
+  height: 17.5%;
+}
+
+.fat {
+  height: 30%;
+}
+
+.super-skinny {
+  height: 11.1%
+}
+
+.circle {
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  position: relative;
+  left: 85px;
+  top: 50px;
+}
+
+h2 {
+  font-family: sans-serif;
+  text-decoration: underline;
+}
+
+/* Colors/ Feel free to add your own! */
+
+.red {
+  background-color: red;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.lightblue {
+  background-color: lightblue;
+}
+
+.purple {
+  background-color: purple;
+}
+
+.white {
+  background-color: #fff;
+}
